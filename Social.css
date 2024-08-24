@@ -1,0 +1,217 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(social-proof-section-master/images/bg-pattern-top-desktop.svg), 
+    url(social-proof-section-master/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -22% 0%, 110% -115%;
+    padding: 0;
+}
+
+b {
+    color: #522253;
+    padding: 0vh 0vw;
+}
+
+/*TOP*/
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: -4vh 0vw;
+}
+
+/*top-left*/
+
+.top-left {
+    margin: 0vh 5vw;
+}
+
+.top-left h1 {
+    color: #522253;
+    font-family: cursive;
+    font-size: xxx-large;
+    width: 30vw;
+}
+
+.top-left p {
+    color: #522253;
+    width: 30vw;
+    height: 15vh;
+}
+
+/*Right*/
+
+.top-right {
+    padding: 0vh 5vw;
+    margin-top: -15vh;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #dddddd63;
+    padding: 0vh 1vw;
+    width: 26vw;
+}
+
+
+.one,
+.two,
+.three {
+    width: 9vw;
+}
+
+.icon1 {
+    margin: 0vh -5vw;
+}
+
+.icon2 {
+    margin: 0vh -2vw;
+}
+
+.icon3 {
+    margin: 0vh 1vw;
+}
+
+/*bottom*/
+
+.bottom {
+    display: flex;
+    padding: 0vh 5vw;
+    justify-content: space-evenly;
+}
+
+.Colton,
+.Irene,
+.Anne{
+    background-color: #511f50;
+    color: white;
+    border-radius: 1vw;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    margin: 0vh 2vw;
+}
+
+.Colton img,
+.Irene img,
+.Anne img {
+    border-radius: 50%;
+    width: 4vw;
+    margin: 1vh 0vw;
+}
+
+.image p {
+    color: #a76295;
+    margin: -2vh 0vw;
+}
+
+.name {
+    padding: 0vh 2vw;
+    margin-top: -5vh;
+}
+
+.text {
+    padding: 2vh 2vw;
+    width: 22vw;
+}
+
+.Irene {
+    margin: 4vh 0vw;
+}
+
+.Anne {
+    margin: 7vh 0vw;
+}
+
+@media screen and (max-width:900px) {
+
+    body{
+        content: url("social-proof-section-master/images/bg-pattern-top-mobile.svg"),
+        url("social-proof-section-master/images/bg-pattern-bottom-mobile.svg");
+        background-position: 145% 0%, 0% 100%;    
+    }
+    
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-left h1 {
+        width: 90vw;
+        text-align: center;
+    }
+
+    .top-left p {
+        color: #522253;
+        width: 78vw;
+        height: 45vh;
+        text-align: center;
+        margin: 0vh 6vw;
+    }
+
+    .top-right {
+        margin-top: -33vh;
+    }
+
+    .one, .two, .three {
+        width: 30vw;
+        padding: 1vh 0vw;
+        text-align: center;
+    }
+
+    .icon1, .icon2, .icon3 {
+        display: flex;
+        flex-direction: column;
+        width: 61vw;
+        border-radius: 1vw;
+        margin: 0vh 0vw;
+    }
+
+    b {
+        padding: 1vh 0vw;
+        text-align: center;
+    }
+
+    .bottom {
+        display: flex;
+        padding: 8vh 5vw;
+        flex-direction: column;
+    }
+
+    .image {
+        margin: 3vh 3vw;
+        padding: 2vh 0vw;
+    }
+
+    .Colton img, .Irene img, .Anne img {
+        width: 8vw;
+        margin: 1vh 3vw;
+    }
+
+    .text {
+        padding: 1vh 7vw;
+        width: 55vw;
+        margin-top: -5vh;
+    }
+
+    .Irene,
+    .Anne {
+        margin: 0vh 0vw;
+    }
+
+    
+    
+}
